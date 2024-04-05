@@ -1,0 +1,19 @@
+{
+  "name": "try-esbuild",
+  "version": "1.0.0",
+  "description": "Getting started with esbuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "node out.js",
+    "build": "esbuild app.jsx --bundle --outfile=out.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
